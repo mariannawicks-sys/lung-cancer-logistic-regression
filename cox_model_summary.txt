@@ -1,0 +1,24 @@
+
+
+Proportional Hazards Test:
+                         chisq df    p
+Age                     3.5339  1 0.06
+Gender                  0.6382  1 0.42
+Smoking_Status          2.1226  2 0.35
+Cancer_Stage            4.0122  3 0.26
+Metastasis              0.4138  1 0.52
+Tumor_Size_cm           0.0313  1 0.86
+Family_History          0.3415  1 0.56
+Chronic_Lung_Disease    0.1041  1 0.75
+Air_Pollution_Exposure  1.0832  2 0.58
+GLOBAL                 13.2626 13 0.43
+
+
+LRT Goodness-of-Fit:
+Analysis of Deviance Table
+ Cox model: response is  Surv(Survival_Months, status)
+ Model 1: ~ Age + Gender + Smoking_Status + Cancer_Stage + Metastasis + Tumor_Size_cm + Family_History + Chronic_Lung_Disease + Air_Pollution_Exposure
+ Model 2: ~ Age + Gender + Smoking_Status + Cancer_Stage + Metastasis + Tumor_Size_cm + Family_History + Chronic_Lung_Disease + Air_Pollution_Exposure + risk_group
+   loglik  Chisq Df Pr(>|Chi|)
+1 -3106.5                     
+2 -3101.2 10.532  9     0.3092
