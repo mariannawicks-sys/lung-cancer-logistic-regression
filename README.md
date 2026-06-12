@@ -41,9 +41,7 @@ install.packages(c("dplyr", "ggplot2", "car", "pROC"))
 
 ### Cook's Distance
 ![Cooks Distance](figures/cooks_distance.png)
-## Results
+Full model results including odds ratios, model diagnostics, and model fit statistics are saved in:
 
-Full model results including odds ratios, proportional hazards test, 
-and model fit statistics are saved in:
 - `results/logistic_model_summary.txt` — full model output
 - `results/model_evaluation.txt` — AUC, AIC, McFadden R-squared
